@@ -1084,3 +1084,22 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+#skills table {
+  width: 100%;
+  /* La tabla ocupará todo el ancho disponible */
+  border-collapse: collapse;
+  /* Elimina los espacios entre las celdas */
+}
+
+#skills td {
+  text-align: center;
+  /* Centra el contenido de las celdas */
+  padding: 10px;
+  /* Espacio interno en las celdas */
+}
+
+#skills img {
+  width: 100px;
+  height: 100px;
+}
